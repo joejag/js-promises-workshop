@@ -1,0 +1,19 @@
+{
+  "name": "js-promises-workshop",
+  "version": "1.0.0",
+  "main": "src/exercises/01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joejag/js-promises-workshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joejag/js-promises-workshop/issues"
+  },
+  "homepage": "https://github.com/joejag/js-promises-workshop#readme"
+}
