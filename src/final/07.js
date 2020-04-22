@@ -30,15 +30,15 @@ function addStringPromise (previous, current) {
 function goCallback (cb) {
   addStringCallback(' ', '1', (error, x) => {
     if (error) {
-      cb('whoops!')
+      cb(new Error('whoops!'))
     } else {
       addStringCallback(x, 'A', (error, x) => {
         if (error) {
-          cb('whoops!')
+          cb(new Error('whoops!'))
         } else {
           addStringCallback(x, 'B', (error, x) => {
             if (error) {
-              cb('whoops!')
+              cb(new Error('whoops!'))
             } else {
               cb(null, x)
             }
@@ -70,7 +70,7 @@ async function goAsync () {
 
 goCallback((err, result) => {
   if (err) {
-    console.log(err)
+    console.log(err.message)
   } else {
     console.log(result)
   }
