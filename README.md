@@ -28,9 +28,9 @@ The more prepared you are for the workshop, the better it will go for you.
 
 ## System Requirements
 
-- [git][https://git-scm.com/] v2 or greater
-- [NodeJS][https://nodejs.org/] v10 or greater
-- [npm][https://www.npmjs.com/] v6 or greater
+- [git](https://git-scm.com/) v2 or greater
+- [NodeJS](https://nodejs.org/) v10 or greater
+- [npm](https://www.npmjs.com/) v6 or greater
 
 All of these must be available in your `PATH`. To verify things are set up
 properly, you can run this:
