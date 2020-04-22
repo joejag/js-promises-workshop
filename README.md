@@ -28,9 +28,9 @@ The more prepared you are for the workshop, the better it will go for you.
 
 ## System Requirements
 
-- [git][git] v2 or greater
-- [NodeJS][node] v10 or greater
-- [npm][npm] v6 or greater
+- [git][https://git-scm.com/] v2 or greater
+- [NodeJS][https://nodejs.org/] v10 or greater
+- [npm][https://www.npmjs.com/] v6 or greater
 
 All of these must be available in your `PATH`. To verify things are set up
 properly, you can run this:
@@ -69,7 +69,6 @@ things up locally.
 👋 I'm Joe Wright
 
 - 🏡 Glasgow
-- 👩 👧 👦
 - 🏢 [code.joejag.com](https://code.joejag.com)
 - 🐦 [@joe_jag](https://twitter.com/joe_jag)
 - 🐙 [joejag](https://github.com/joejag)
