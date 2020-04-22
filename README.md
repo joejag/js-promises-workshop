@@ -1,7 +1,8 @@
 # Javascript Promises Workshop
 
-👋 hi there! My name is [Joe Wright](https://code.joejag.com/)! This is a
-workshop repo to teach you about Javascript promises.
+👋 hi there! My name is [Joe Wright](https://code.joejag.com/)! 
+
+This repo contains a workshop to teach you about Javascript promises.
 
 Javascript is a single-threaded language, but it runs inside a browser or node runtime which gives it special async powers.
 Historically the way we used these powers was via callbacks, but the language creators have never been entirely happy enough with how they performed in the real world. Over the last five years, we've gone from callbacks to promises to async/await.
@@ -76,7 +77,7 @@ things up locally.
 ### Schedule
 
 - 🎙 Logistics
-- 📽 Watch https://www.youtube.com/watch?v=8aGhZQkoFbQ
+- 📽 Watch https://youtu.be/8aGhZQkoFbQ?t=51
 - 💪 01. Blocking and predicting timeouts
 - 💪 02. Timeouts continued
 - 💪 03. Callbacks
