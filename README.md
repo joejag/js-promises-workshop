@@ -108,4 +108,4 @@ Please do ask! Interrupt me. If you have an unrelated question, please send me i
 
 ## Influences
 
-This README is based off the style [Kent C Dodds](kentcdodds.com) uses for [his workshops](https://github.com/kentcdodds/react-fundamentals)
+This README is based off the style [Kent C Dodds](https://kentcdodds.com) uses for [his workshops](https://github.com/kentcdodds/react-fundamentals)
