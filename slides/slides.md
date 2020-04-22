@@ -1,40 +1,31 @@
----
-title: 'JS Promises'
-theme: solarized
-revealOptions:
-  transition: 'none'
-  backgroundTransition: 'none'
----
-
 # Javascript Promises
 
 ---
 
 <!-- Connection -->
 
-## Is Javascript single threaded?
+# Is Javascript single threaded?
 
-_open discussion_
+## _open discussion_
 
 ---
 
 <!-- Content -->
 
-# How the Javascript event loop works
+## How the Javascript event loop works
 
-https://www.youtube.com/watch?v=8aGhZQkoFbQ
+#### https://youtu.be/8aGhZQkoFbQ?t=51
 
 ---
 
 <!-- Concrete Practice -->
 
-# Exercise!
+## Exercise!
 
-### (VS LiveShare or screen share)
+### `https://github.com/joejag/js-promises-workshop`
 
-`https://github.com/joejag/js-promises-workshop`
-
-_Exercises 1-3_
+#### (VS LiveShare or screen share)
+#### _Exercises 1-3_
 
 ---
 
@@ -62,9 +53,9 @@ _Exercises 1-3_
 
 <!-- Connection -->
 
-## Are there any problems with Callbacks?
+# Are there any problems with Callbacks?
 
-_open discussion_
+## _open discussion_
 
 ---
 
@@ -76,7 +67,7 @@ _open discussion_
 
 We want
 
-```js
+```javascript
 x = getData()
 y = getMoreData(x)
 z = getMoreData(y)
@@ -84,7 +75,7 @@ z = getMoreData(y)
 
 We get
 
-```js
+```javascript
 getData(function(x){
     getMoreData(x, function(y){
         getMoreData(y, function(z){
@@ -96,18 +87,18 @@ getData(function(x){
 
 ---
 
-## Problems with callbacks
+# Problems with callbacks
 
 - The code becomes harder to read as you have to move from left to right to understand.
 - Error handling is complicated and often leads to bugs.
 
 ---
 
-## Libraries were written
+# Libraries were written
 
-![](./promise_choices.png)
+![right](./promise_choices.png)
 
-#### https://stackoverflow.com/questions/4234619/how-to-avoid-long-nesting-of-asynchronous-functions-in-node-js
+### https://stackoverflow.com/questions/4234619/how-to-avoid-long-nesting-of-asynchronous-functions-in-node-js
 
 ---
 
@@ -174,7 +165,7 @@ printAll()
 
 # Exercise!
 
-Exercises 4-7
+### Exercises 4-7
 
 ---
 
