@@ -56,13 +56,6 @@ git clone https://github.com/joejag/js-promises-workshop.git
 cd js-promises-workshop
 ```
 
-You may be able to work through the entire workshop in the browser. Go to
-[this codesandbox](https://codesandbox.io/s/github/joejag/js-promises-workshop)
-and you should be good to go. Note that sometimes people have trouble with
-codesandbox not working quite right with tests, but you should be able to work
-around that. If you're concerned, then it would probably be better to just set
-things up locally.
-
 ## Running the code
 
 Open up this repo in your favourite editor, or fork the [Codesandbox version](https://codesandbox.io/s/github/joejag/js-promises-workshop?file=/src/exercises/01.md). Each exercise is in its own file and can be ran from the commandline with `node filename.js`.
